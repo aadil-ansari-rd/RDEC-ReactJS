@@ -1,0 +1,79 @@
+"dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  }
+
+
+We put Routes and Route whithin <Sidebarmenu></Sidebarmenu> because we want to send the as props 
+that will be recieved in Sidebarmenu Component and later will be shown within main screen of 
+Sidebarmenu component.
+
+
+bookName
+authorName
+description
+price
+publisher
+isbnNo
+
+
+npm un package-name
+
+useEffect : a hook that works his work brfore the page is rendered
+
+inspect-> network -> console : to check the incoming status from backend server 
+to the front end server
+
+
+useEffect : hook , that work some work before the page is rendered
+
+useEffect(work to be done in a functin , condition)
+condition :
+
+axios is a library
+
+find({}): array of object
+findOne(): object
+
+
+sideEffect : useEffect ke kaamo ko sideEffect kahte hai
+useEffect do bar chalta hai ; page render se phle or dusri bar condition me likhe varibale me change hone pr 
+
+
+
+function handleChange(e){
+    let name = e.target.name
+    let value = e.target.value
+    setBook((prev)=>{
+      return {
+        ...prev , [name]:value          //book ki previous sari value wese hi rhne de  \
+        //bs name ki value ch
+      }
+    })
+
+  }
+
+
+
+home work :
+
+add four fiels
+1 : sort description
+2 : Book status (first hand / second)
+3 : language (Hindi / english)
+4 : Quantity
+
+icons :-
+1 : Delete 
+2 : Edit 
+3 : View
+
+
+req.body -> data
+req.file -> file
+req.qurey -> params
+req.params -> url/:var

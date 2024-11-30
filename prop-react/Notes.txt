@@ -1,0 +1,33 @@
+Props : component call krte samy bheje jane wale inputs ko props kahte hai
+Ex : <App name="nausad"  email="n@" /> 
+
+
+props ki value changenhi ho skti hai 
+
+state ki value change ho sakti hai 
+
+recieving end ka props ek object hota hai 
+
+
+props validatio ke lie library prop-types
+
+props ka validation fail hone pr ye bs warning deta hai pr ye render krwa deta hai 
+
+there is two properties in prop-types:-
+
+
+propType 
+defaultProps
+
+// Default export
+exprot ek file me sirf hoga
+"export default funName" //two fn can not be export
+export ki gayi chij ko kisi bhi name se import kr skte hai 
+
+
+//named export
+export {funName} // in this case it will be recieved in curly braces
+exprot {funName  , fn funName1} // two fn  can be recived
+export ki gyi chij ko usi name se import karte hai jis name se wo exprt ki gyi hai
+
+ek named phle or uske bad ek default export use kr skte hai

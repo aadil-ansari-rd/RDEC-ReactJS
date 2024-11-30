@@ -1,0 +1,6 @@
+return ke andrcurly braces me likha gya expression ka kaam itna hota hai ki wo us 
+expression ko evalualte kar or print krwa de
+
+
+npm i prop-types
+npm run dev 

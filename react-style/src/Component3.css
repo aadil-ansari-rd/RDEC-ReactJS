@@ -1,0 +1,9 @@
+.para1 {
+    color: blue;
+    background-color: grey;
+    border: 3px solid red;
+    font-family: Arial;
+    font-size: 20px,
+}
+
+/* //manifest file : combination of two or more css file into a single file */

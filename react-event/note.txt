@@ -1,0 +1,8 @@
+first No input box
+sexond No input box
+result  input box
+
+
+
+buttons box1 add box2 subtract box3 divide box4 multiply
+result according to button action & input take  as document.getElement

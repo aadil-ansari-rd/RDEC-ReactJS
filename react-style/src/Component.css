@@ -1,0 +1,18 @@
+.para1 {
+    color: red;
+    background-color: Yellow;
+    border: 3px solid blue;
+    font-family: Arial;
+    font-size: 20px,
+}
+.para2{
+    color: green;
+    background-color: lightblue;
+    border: 3px solid grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px,
+}
+
+.para3{
+    text-align: center;
+}
